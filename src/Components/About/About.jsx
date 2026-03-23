@@ -17,7 +17,7 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I'm a frontend developer with a passion for creating beautiful,
+              I'm Emmanuel Ajikanbi, a frontend developer with a passion for creating beautiful,
               functional websites that provide an excellent user experience.
               With over 3 years of experience in the industry, I have a strong
               understanding of HTML, CSS, JavaScript, and various frontend
