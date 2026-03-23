@@ -31,7 +31,7 @@ const Portfolio = () => {
   ]
 
   return (
-    <div className="mywork">
+    <div id='portfolio' className="mywork">
 
       <div className="mywork-title">
         <h1>My Latest Work</h1>

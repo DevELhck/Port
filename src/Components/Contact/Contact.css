@@ -32,6 +32,7 @@
 .contact-left h1 {
     font-size: 40px;
     background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -86,6 +87,11 @@
 
 .contact-submit:hover {
     background: #4f46e5;
+}
+.contact-result {
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 500;
 }
 
 /* RESPONSIVE */
