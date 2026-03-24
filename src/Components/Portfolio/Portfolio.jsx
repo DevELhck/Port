@@ -12,21 +12,21 @@ const Portfolio = () => {
       title: "E-Commerce Website",
       description: "A full-stack MERN e-commerce app with product management, cart, and authentication.",
       image: project1,
-      link: "#"
+      link: "https://e-commerce-one-psi-32.vercel.app/"
     },
     {
       id: 2,
       title: "Bank App Dashboard",
       description: "A modern banking dashboard with charts, transactions, and user authentication.",
       image: project2,
-      link: "#"
+      link: "https://bank-app-pni4.vercel.app/"
     },
     {
       id: 3,
       title: "College Management System",
       description: "A responsive React app for managing college operations with student records, courses, and administration.",
       image: project3,
-      link: "#"
+      link: "https://big-el-college.vercel.app/"
     }
   ]
 

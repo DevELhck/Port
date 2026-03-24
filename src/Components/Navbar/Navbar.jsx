@@ -53,7 +53,7 @@ const Navbar = () => {
           className={menu === "portfolio" ? "active" : ""}
           onClick={() => handleScroll("portfolio")}
         >
-          Portfolio
+          Work
         </li>
         <li
           className={menu === "contact" ? "active" : ""}
