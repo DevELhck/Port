@@ -94,3 +94,11 @@
     gap: 20px;
   }
 }
+
+@media (max-width: 480px) {
+  .about-img-card {
+  padding: 5px;
+  border-radius: 10px;
+  background: linear-gradient(267deg, #2564da, #B923E1);
+}
+}
