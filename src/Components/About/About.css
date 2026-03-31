@@ -1,210 +1,96 @@
-/* MAIN CONTAINER */
 .about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 60px;
   margin: 80px 170px;
 }
 
-/* TITLE */
 .about-title h1 {
-  padding: 0px 20px;
   font-size: 45px;
   font-weight: 300;
 }
 
-/* SECTIONS (LEFT + RIGHT) */
+/* SECTIONS */
 .about-sections {
   display: flex;
   gap: 80px;
-  align-items: flex-start;
-  width: 100%;
+  align-items: center;
 }
 
-/* LEFT SIDE (IMAGE) */
+/* IMAGE CARD */
+.about-img-card {
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(267deg, #2564da, #B923E1);
+}
+
 .about-left img {
-  max-width: 400px;
   width: 100%;
-  border-radius: 10px;
+  max-width: 320px;
+  border-radius: 20px;
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  transition: 0.4s ease;
 }
 
-/* RIGHT SIDE */
+.about-left img:hover {
+  transform: translateY(-8px);
+}
+
+/* RIGHT */
 .about-right {
   display: flex;
   flex-direction: column;
-  gap: 60px;
-  flex: 1;
+  gap: 40px;
 }
 
-/* TEXT */
 .about-para {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  font-size: 22px;
-  font-weight: 400;
+  font-size: 20px;
   line-height: 32px;
 }
 
 /* SKILLS */
-.about-skills {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .about-skill {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   align-items: center;
-  transition: 0.3s;
-}
-
-.about-skill p {
-  min-width: 140px;
-  font-size: 20px;
 }
 
 .about-skill hr {
-  border: none;
-  width: 50%;
   height: 8px;
   border-radius: 50px;
-  background: linear-gradient(264deg, #DF8908 -5.09%, #ff1596 106.28%);
+  border: none;
+  background: linear-gradient(264deg, #DF8908, #ff1596);
 }
 
 /* ACHIEVEMENTS */
 .about-achievements {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
+  gap: 40px;
 }
 
 .about-achievement {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
+  text-align: center;
 }
 
 .about-achievement h1 {
-  font-size: 50px;
-  -webkit-text-fill-color: #ff1596;
+  font-size: 45px;
+  color: #ff1596;
 }
 
-.about-achievement p {
-  font-size: 18px;
-}
-
-/* HOVER EFFECTS */
-.about-skill:hover {
-  transform: scale(1.05);
-}
-
-.about-achievement:hover {
-  transform: scale(1.1);
-}
-
-/* TABLET */
-@media (max-width: 1024px) {
-  .about {
-    margin: 60px 60px;
-  }
-
-  .about-sections {
-    gap: 40px;
-  }
-
-  .about-title h1 {
-    font-size: 36px;
-  }
-
-  .about-para {
-    font-size: 20px;
-  }
-}
-
-/* MOBILE */
+/* RESPONSIVE */
 @media (max-width: 768px) {
   .about {
     margin: 50px 20px;
-    gap: 40px;
   }
 
   .about-sections {
     flex-direction: column;
-    gap: 40px;
-    align-items: center;
   }
 
-  .about-left img {
-    max-width: 300px;
-  }
-
-  .about-right {
-    gap: 40px;
-    align-items: center;
-    text-align: center;
-  }
-
-  .about-title h1 {
-    font-size: 30px;
-  }
-
-  .about-para {
-    font-size: 18px;
-  }
-
-  /* SKILLS STACK */
-  .about-skill {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .about-skill hr {
-    width: 100%;
-  }
-
-  /* ACHIEVEMENTS STACK */
   .about-achievements {
     flex-direction: column;
-    align-items: center;
-    gap: 25px;
-  }
-}
-
-/* SMALL PHONES */
-@media (max-width: 480px) {
-  .about-title h1 {
-    font-size: 26px;
-  }
-
-  .about-para {
-    font-size: 16px;
-  }
-
-  .about-left img {
-    max-width: 200px;
-  }
-
-  .about-skill p {
-    font-size: 16px;
-  }
-
-  .about-skill hr {
-    height: 6px;
-  }
-
-  .about-achievement h1 {
-    font-size: 40px;
-  }
-
-  .about-achievement p {
-    font-size: 16px;
+    gap: 20px;
   }
 }

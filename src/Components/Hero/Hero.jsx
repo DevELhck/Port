@@ -5,15 +5,21 @@ import profile_img from "../../assets/profile_img.png";
 const Hero = () => {
   return (
     <div id="home" className="hero">
-      <img src={profile_img} alt="Profile" />
+      
+      <div className="hero-img-wrapper">
+        <img src={profile_img} alt="Profile" />
+      </div>
+
       <h1>
-        <span>Hey! i'm a Web Developer.</span>
+        <span>Hey! I'm a Web Developer.</span>
       </h1>
+
       <p>
-        I create beautiful, functional websites that provide an excellent user
-        experience. I am passionate about learning new technologies and staying
-        up-to-date with the latest trends in web development.
+        I create beautiful, functional websites that provide <br /> an excellent user
+        experience. I am passionate <br /> about learning new technologies and staying<br />
+        up-to-date with the latest trends in <br/> web development.
       </p>
+
       <div className="hero-action">
         <div className="hero-connect">Connect With Me</div>
         <div className="hero-resume">View Resume</div>
